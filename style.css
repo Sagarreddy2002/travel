@@ -1,0 +1,320 @@
+body{
+    scroll-behavior: smooth;
+    background-image: url(https://media4.giphy.com/media/wKbTqit9nTDeq4snVu/giphy.gif?cid=ecf05e47awii3amkw4tcmql2i86x78z490dqrcdmsl4s4jru&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: blanchedalmond;
+    border: 1px solid;
+    position: sticky;
+    top: 30px;
+    display: flex;
+    /* filter: blur(2px) ; */
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid;
+    position: static;
+    /* top: 300px; */
+   
+    
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid;
+    position: static;
+}
+header img{
+    margin-top: 10px;
+    height: 50px;
+}
+header h1{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.box1{
+    margin-left: 80px;
+    margin-right: 20px;
+    top: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+}
+.box1 a{
+    color: rgb(106, 218, 255);
+    font-size: 30px;
+   margin-top: 30px;
+}
+
+header .search{
+    height: 50px;
+    background-color: lightcyan;
+    width: 350px;
+    /* background-color: rgb(239, 239, 239); */
+    display: flex;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px ;
+    margin-top: 20px;
+}
+.search input[type="search"]{
+    width: 200px;
+    height: 45px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.search input[type="search"]:focus{
+    outline: none;
+}
+.search svg{
+    margin-left: 50px ;
+}
+.box2{
+    height: 70px;
+    width: 170px;
+    background-color: white;
+   display: flex;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;color: black;
+}.box2 p{
+    text-align: center;
+    justify-content: center;
+}
+.box2 img{
+    border-radius: 50%;
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+main .box3 p{
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+}
+.box3{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    
+}
+.box4 img{
+    height: 600px;
+    position: static;
+}
+.box4 img:hover{
+   
+    transform: scale(1.025);
+}
+.box5 img:hover{
+  
+    transform: scale(1.025);
+}
+.box6 img:hover{
+   
+    transform: scale(1.025);
+}
+/* .boxa{
+    width: 700px;
+    height: 20px;
+    background-color: blue ;
+    border: 2px solid;
+} */
+.boxa h1{
+    margin-top: 420px;
+    color: white;
+    margin-left: -800px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.box4 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(251, 248, 248);
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+}
+.box4{
+    display: flex;
+    /* background-image: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2019/01/thottikallu-falls.jpg?tr=w-400);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: fit-content;
+    /* width: fit-content; */
+    /* background-color: blueviolet; */
+}
+.box4 iframe{
+    margin-top: 200px;
+    /* position: relative; */
+    left: -100px;
+    /* margin-left: 500px; */
+    top: 250px;
+    /* width: 700px; */
+
+}
+.box5 img{
+    margin-left: 735px;
+}
+.box5 .boxb h1{
+    margin-left: 750px;
+    color: white;
+    margin-top: -60px;
+
+}
+.box5 iframe{
+    margin-top: 00px;
+    border: 2px solid;
+}
+/* .box5{
+    display: flex;
+    background-size: cover; 
+    height: fit-content;
+    
+} */
+.box5 p{
+    margin-top: -500px;
+    color: rgb(244, 239, 239);
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+}
+.box5 img{
+    height: 500px;
+    /* background-color: linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0)); */
+    
+}
+.box6 img{
+    height: 500px;
+}
+.box6 p{
+    margin-top: -300px;
+    margin-left: 800px;
+    color: rgb(245, 240, 240);
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+}
+.box6{
+    /* display: flex; */
+    /* background-image: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2019/01/thottikallu-falls.jpg?tr=w-400);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: fit-content;
+    /* width: fit-content; */
+    /* background-color: blueviolet; */
+}
+.box6 iframe{
+    margin-left: 800px;
+    /* position: relative; */
+}
+.boxc h1{
+    margin-top: -220px;
+    color: white;
+    /* margin-left: -800px; */
+}
+.main2{
+    display: flex;
+}
+.main2 h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main2 img:hover{
+    transform: scale(1.25);
+    border-radius: 0px;
+}
+.box8{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+.bn45 {
+    width: 170px;
+    height: 50px;
+  }
+  .bn13 {
+    display: inline-block;
+    padding: 0.65em 1.6em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+  }
+  
+  .bn13:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
+.new{
+    background-color: #000000;
+    justify-content: right;
+    display: flex;
+}
+.bn44 {
+    width: 160px;
+    height: 60px;
+  }
+  .bn46 {
+    width: 150px;
+    height: 50px;
+  }
+*{
+    /* color: white; */
+}
